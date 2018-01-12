@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+//styles var
+.roboto-f{
+  font-family: 'Roboto', sans-serif;
+}
+
+.accent-color-r{
+  color: #cd842d;
+}
+
+.black-color-r{
+  color: #1e1e1e;
+}
+
+.heading-color-r{
+  color: #343433;
+}
+
+.grey-color-r{
+  color: #5d5d5d;
+}
+
+.medium-f{
+  font-weight: 500;
+}
+
+.black-f{
+  font-weight: 900;
+}
+
+.heading-r{
+  font-size: 30px;
+  line-height: 32px;
+}
+
+.small-f{
+  font-size: 14px;
+}
+
+//top-line
+.top-line{
+  background-color: #e3e1e1;
+    &--logo{
+    display: block;
+  }
+  .top-number{
+    margin-top: 50px;
+    &--tel{
+      font-size: 18px;
+      display: block;
+    }
+    &--city{
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+  .top-number-inner{
+    width: 150px;
+    position: relative;
+    &:before{
+      content: "";
+      background-image: url("../images/icon1-top.png");
+      height: 37px;
+      width: 37px;
+      position: absolute;
+      left: -45px;
+      top: -3px;
+    }
+  }
+  .top-number-inner__secondary{
+    width: 200px;
+    &:before{
+      content: "";
+      background-image: url("../images/icon2-top.png");
+      width: 33px;
+      height: 42px;
+      left: -25px;
+    }
+  }
+}

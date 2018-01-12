@@ -1,2 +1,4 @@
 psd/*.psd
 admin.txt
+.idea
+dist/prepros-6.config
