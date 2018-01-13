@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
 
+img {
+  max-width: inherit;
+}
+
+body{
+  min-width: inherit;
+  font-size: 14px;
+}
+
+
+
 //styles var
 .roboto-f{
   font-family: 'Roboto', sans-serif;
@@ -38,11 +49,14 @@
   font-size: 14px;
 }
 
+
+
 //top-line
 .top-line{
   background-color: #e3e1e1;
     &--logo{
     display: block;
+
   }
   .top-number{
     margin-top: 50px;
@@ -77,5 +91,80 @@
       height: 42px;
       left: -25px;
     }
+  }
+  .hamburger{
+    display: inline-block;
+    margin-top: 30px;
+    position: relative;
+    z-index: 9999;
+  }
+}
+
+// top-navigation
+.topnav {
+  .navigation {
+    padding: 0 8px;
+    margin-bottom: 0;
+    & li{
+      display: inline-block;
+      // float: left;
+    }
+  }
+  .navigation-item{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: #343433;
+    font-weight: 500;
+    transition: all .2s ease-in 0s;
+    padding: 20px 18px;
+    &:hover{
+      background-color: #cd842d;
+      color: #fff;
+    }
+  }
+ 
+}
+
+// slider-home
+.slider-home{
+  background-image: url(../images/bg-top.png);
+  height: 416px;
+  background-size: cover;
+  .slider--heading1{
+    margin-top: 130px;
+    font-size: 38px;
+    line-height: 42px;
+    margin-bottom: 5px; 
+  }
+  .slider--heading2 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 42px;
+  }
+  .heading-btn{
+    display: inline-block;
+    background-color: #cd842d;
+    padding: 15px 14px;
+  }
+  .slider-form{
+    margin-top: 130px;
+    position: relative;
+    max-width: 99%;
+    background-color: rgba(255, 255, 255, 0.8);
+    &:before{
+      content: "";
+      background-image: url(../images/head-form-top.png);
+      height: 69px;
+      width: 372px;
+      position: absolute;
+      top: -69px;
+      left: -8px;
+
+    }
+  }
+  .slider-form-heading{
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 30px;
   }
 }

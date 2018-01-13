@@ -12,13 +12,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base href="/" />
+  <!--   <base href="/" /> -->
   <link href="http://stonecraft24.ru/favicon.ico" rel="shortcut icon" type="image/x-icon" />
   <link rel="stylesheet" href="http://stonecraft24.ru/assets/templates/stonecraft/css/bootstrap.css">
   <link rel="stylesheet" href="http://stonecraft24.ru/assets/templates/stonecraft/css/main.css">
   <link rel="stylesheet" href="http://stonecraft24.ru/assets/templates/stonecraft/css/animations.css">
   <link href="https://fonts.googleapis.com/css?family=Arsenal:400,700%7cOpen+Sans:300,400,700,800%7cLora:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="styles/stylesv2.css">
+  <link rel="stylesheet" href="styles/responsive.css">
   <script async src="http://stonecraft24.ru/assets/templates/stonecraft/js/vendor/modernizr-2.6.2.min.js"></script>
 
   <!--[if lt IE 9]>
@@ -95,14 +96,17 @@
   </div>
   <!-- /.login-modal-->
 
-  <!--top-lin-->
+  <!--top-line-->
   <div class="top-line">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-xs-10">
           <a href="/" class="top-line--logo">
-            <img src="images/logo-top.png" alt="">
+            <img src="images/logo-top.png" alt="" class="img-responsive">
           </a>
+        </div>
+        <div class="col-xs-2 visible-xs">
+          <a href="javascript:void(0);" class="hamburger" onclick="mobMenu()"><img src="images/hamburger.png" alt=""></a>
         </div>
         <div class="col-lg-2">
           <div class="top-number">
@@ -139,6 +143,61 @@
   </div>
   <!--/.top-line-->
 
+  <!-- top-navigation -->
+  <div class="topnav" id="TopNav">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="navigation list-unstyled">
+            <li><a href="/" class="navigation-item">Главная</a></li>
+            <li><a href="/" class="navigation-item">Комплексные решения</a></li>
+            <li><a href="/" class="navigation-item">Каталог камня</a></li>
+            <li><a href="/" class="navigation-item">Услуги</a></li>
+            <li><a href="/" class="navigation-item">Наши объекты</a></li>
+            <li><a href="/" class="navigation-item">Архитектурные элементы</a></li>
+            <li><a href="/" class="navigation-item">Готовые решения</a></li>
+            <li><a href="/" class="navigation-item">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.top-navigation -->
+
+  <!-- slider-home -->
+  <div class="slider-home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="slider--heading1 roboto-f sw text-uppercase">
+            НАТУРАЛЬНЫЙ КАМЕНЬ В МОСКВЕ
+          </div>
+          <div class="slider--heading2 roboto-f sw text-uppercase">
+            Проект. Поставка. Монтаж. Сервис.
+          </div>
+          <div class="slider--btn1">
+            <a href="" class="heading-btn roboto-f sw text-uppercase">Перейти в каталог камня</a>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="slider-form center-block">
+            <div class="slider-form-heading accent-color-r roboto-f text-center text-uppercase">
+              БЕСПЛАТНАЯ  <br>
+              КОНСУЛЬТАЦИЯ
+            </div>
+            <form action="" class="slider-form-home"> 
+              <div class="form-group">
+                <label for="name-f-h" class="hidden"></label>
+                <input type="text" class="form-control" id="name-f-h" placeholder="Имя">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.slider-home -->
+
 
 
 
@@ -172,6 +231,7 @@
   <!-- custom scripts -->
   <script src="http://stonecraft24.ru/assets/templates/stonecraft/js/plugins.js"></script>
   <script src="http://stonecraft24.ru/assets/templates/stonecraft/js/main.js"></script>
+  <script src="javascript/javascript.js"></script>
 
   <script type="text/javascript" src="http://stonecraft24.ru/assets/components/ajaxform/js/default.js"></script>
 </body>

@@ -1,4 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900");
+img {
+  max-width: inherit;
+}
+
+body {
+  min-width: inherit;
+  font-size: 14px;
+}
+
 .roboto-f {
   font-family: 'Roboto', sans-serif;
 }
@@ -83,4 +92,84 @@
   width: 33px;
   height: 42px;
   left: -25px;
+}
+
+.top-line .hamburger {
+  display: inline-block;
+  margin-top: 30px;
+  position: relative;
+  z-index: 9999;
+}
+
+.topnav .navigation {
+  padding: 0 8px;
+  margin-bottom: 0;
+}
+
+.topnav .navigation li {
+  display: inline-block;
+}
+
+.topnav .navigation-item {
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  color: #343433;
+  font-weight: 500;
+  -webkit-transition: all .2s ease-in 0s;
+  -o-transition: all .2s ease-in 0s;
+  transition: all .2s ease-in 0s;
+  padding: 20px 18px;
+}
+
+.topnav .navigation-item:hover {
+  background-color: #cd842d;
+  color: #fff;
+}
+
+.slider-home {
+  background-image: url(../images/bg-top.png);
+  height: 416px;
+  background-size: cover;
+}
+
+.slider-home .slider--heading1 {
+  margin-top: 130px;
+  font-size: 38px;
+  line-height: 42px;
+  margin-bottom: 5px;
+}
+
+.slider-home .slider--heading2 {
+  font-size: 24px;
+  line-height: 26px;
+  margin-bottom: 42px;
+}
+
+.slider-home .heading-btn {
+  display: inline-block;
+  background-color: #cd842d;
+  padding: 15px 14px;
+}
+
+.slider-home .slider-form {
+  margin-top: 130px;
+  position: relative;
+  max-width: 99%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.slider-home .slider-form:before {
+  content: "";
+  background-image: url(../images/head-form-top.png);
+  height: 69px;
+  width: 372px;
+  position: absolute;
+  top: -69px;
+  left: -8px;
+}
+
+.slider-home .slider-form-heading {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 30px;
 }
