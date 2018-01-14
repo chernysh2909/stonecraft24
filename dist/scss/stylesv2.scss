@@ -66,7 +66,47 @@ body{
   margin: 0;
 }
 
+#BtnTop{
+  display: none;
+  max-width: 50px;
+  text-align: center;
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  cursor: pointer;
+  > span{
+    margin-top: 5px;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #343433;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}
 
+.row + .row {
+  margin-top: 0;
+}
+
+.grey-sect{
+  background-color: #e3e1e1;
+  position: relative;
+  padding-top: 40px;
+  &:before{
+    content: "";
+    background-image: url(../images/head-block.png);
+    height: 50px;
+    width: 230px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+}
 
 
 //top-line
@@ -126,6 +166,11 @@ body{
     position: relative;
     z-index: 9999;
   }
+}
+.top-line2{
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 // top-navigation
@@ -395,5 +440,75 @@ body{
   }
   .benafits-img{
     max-height: 70px;
+  }
+}
+
+.our-services{
+  padding-top: 30px;
+  padding-bottom: 130px;
+  .img-link{
+    display: inline-block;
+  }
+  .services-img{
+    filter: grayscale(100%);
+    opacity: 0.55;
+    transition: all 0.3s ease-in-out 0s;
+    &:hover{
+      filter: grayscale(0%);
+      opacity: 1;
+    }
+  }
+  .services-wrp{
+    margin-top: 25px;
+  }
+  .desk-link{
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #cd842d;
+    line-height: 24px;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  .col-lg-4 :nth-child(3n+1){ 
+    clear: both;
+  }
+}
+
+// footer
+.footer{
+  background-color: #9e9e9e;
+  padding-top: 6px;
+   padding-bottom: 10px;
+  .footer-bgc{
+    background-color: #e3e1e1;
+    height: 90px;
+    margin-top: 6px;
+    margin-left: 13px;
+    padding-top: 25px;
+
+  }
+  .footer-tel{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #343434;
+    &:hover{
+      color: #f9b000;
+    }
+  }
+  .row + .row {
+    margin-top: 8px;
+  }
+  .copy{
+    color: #636161;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    > a{
+      color: #636161;
+      text-decoration: underline;
+    }
   }
 }

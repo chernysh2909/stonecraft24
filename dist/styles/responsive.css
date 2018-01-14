@@ -106,7 +106,35 @@
   .benefits .col-xs-6:nth-child(2n+1) {
     clear: both;
   }
-  
+  .footer > .container {
+    padding-left: 0;
+  }
+  .our-services .desk-link{
+    font-size: 13px;
+    line-height: 14px;
+    margin-top: 5px;
+  }
+  .slider-home .slider--heading1{
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .slider-home .slider--heading2 {
+    font-size: 16px;
+    line-height: 42px;
+    text-align: center;
+  }
+  .slider--btn1{
+    text-align: center;
+  }
+  .slider-home{
+    height: 270px;
+  }
+  .heading-r{
+    font-size: 24px;
+  }
+
 }
 
   
