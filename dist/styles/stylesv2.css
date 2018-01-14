@@ -45,6 +45,23 @@ body {
   font-size: 14px;
 }
 
+.heading-big {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn-r {
+  background-color: #cd842d;
+  min-width: 152px;
+  height: 38px;
+  text-align: center;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  border: none;
+  margin: 0;
+}
+
 .top-line {
   background-color: #e3e1e1;
 }
@@ -65,6 +82,17 @@ body {
 .top-line .top-number--city {
   font-size: 14px;
   line-height: 16px;
+}
+
+.top-line .top-number2 {
+  margin-top: 10px;
+  background-color: #ff8e00;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px 0;
+  margin-bottom: 12px;
 }
 
 .top-line .top-number-inner {
@@ -96,7 +124,7 @@ body {
 
 .top-line .hamburger {
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 50px;
   position: relative;
   z-index: 9999;
 }
@@ -108,6 +136,11 @@ body {
 
 .topnav .navigation li {
   display: inline-block;
+  margin-right: 4px;
+}
+
+.topnav .navigation li:last-child {
+  margin-right: 0;
 }
 
 .topnav .navigation-item {
@@ -124,6 +157,166 @@ body {
 .topnav .navigation-item:hover {
   background-color: #cd842d;
   color: #fff;
+}
+
+.topnav .navigation-drp-btn {
+  position: relative;
+  padding-left: 25px;
+}
+
+.topnav .navigation-drp-btn:before {
+  content: "";
+  background-image: url(../images/icon3-top.png);
+  position: absolute;
+  height: 17px;
+  width: 18px;
+  left: 0px;
+  top: 20px;
+}
+
+.topnav .dropdown-li {
+  position: relative;
+  -webkit-transition: background .2s;
+  -o-transition: background .2s;
+  transition: background .2s;
+}
+
+.topnav .dropdown-content {
+  display: none;
+  list-style: none;
+  padding: 15px 5px;
+  background-color: rgba(30, 30, 30, 0.9);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  min-width: 840px;
+  position: absolute;
+  z-index: 1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.topnav .dropdown-content li {
+  display: block;
+  letter-spacing: 0.05em;
+  padding-left: 50px;
+}
+
+.topnav .dropdown-content li a {
+  color: #fff;
+  line-height: 16.58px;
+  display: block;
+  font-size: 13px;
+  border-bottom: 1px solid #363636;
+}
+
+.topnav .dropdown-content li a:hover {
+  color: #f97c00;
+}
+
+.topnav .dropdown-content .menu-title {
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 40px;
+}
+
+.topnav .dropdown-content .menu-title a {
+  color: #f97c00;
+  border-bottom: 0;
+  margin-top: 5px;
+}
+
+.topnav .dropdown-content .menu-title:after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 27px;
+  left: 0px;
+  top: 50%;
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+}
+
+.topnav .dropdown-content .menu-title-1:after {
+  background: url(http://stonecraft24.ru/assets/templates/stonecraft/img/menu-title-icon-1.png);
+}
+
+.topnav .dropdown-content .menu-title-2:after {
+  background: url(http://stonecraft24.ru/assets/templates/stonecraft/img/menu-title-icon-2.png);
+}
+
+.topnav .dropdown-content .menu-title-3:after {
+  background: url(http://stonecraft24.ru/assets/templates/stonecraft/img/menu-title-icon-3.png);
+}
+
+.topnav .dropdown-content .menu-title-4:after {
+  background: url(http://stonecraft24.ru/assets/templates/stonecraft/img/menu-title-icon-4.png);
+}
+
+.topnav .dropdown-content .menu-title-5:after {
+  background: url(http://stonecraft24.ru/assets/templates/stonecraft/img/menu-title-icon-5.png);
+}
+
+.topnav .dropdown-content .menu-title-6:after {
+  background: url(http://stonecraft24.ru/assets/templates/stonecraft/img/menu-title-icon-6.png);
+}
+
+.topnav .dropdown-content .menu-title-7:after {
+  background: url(http://stonecraft24.ru/assets/templates/stonecraft/img/menu-title-icon-7.png);
+}
+
+.topnav .dropdown-content .menu-title-8:after {
+  background: url(http://stonecraft24.ru/assets/templates/stonecraft/img/menu-title-icon-8.png);
+}
+
+.topnav .dropdown-sevices {
+  display: none;
+  list-style: none;
+  padding: 15px 5px;
+  background-color: rgba(30, 30, 30, 0.9);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  min-width: 560px;
+  position: absolute;
+  z-index: 1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.topnav .dropdown-sevices li {
+  display: block;
+  letter-spacing: 0.05em;
+  padding-left: 20px;
+}
+
+.topnav .dropdown-sevices li a {
+  color: #fff;
+  line-height: 16.58px;
+  display: block;
+  font-size: 13px;
+  border-bottom: 1px solid #363636;
+}
+
+.topnav .dropdown-sevices li a:hover {
+  color: #f97c00;
+}
+
+.topnav .dropdown-sevices .menu-title {
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 40px;
+}
+
+.topnav .dropdown-sevices .menu-title a {
+  color: #f97c00;
+  border-bottom: 0;
+  margin-top: 5px;
+}
+
+.topnav .dropdown-li:hover .dropdown-content {
+  display: block;
+}
+
+.topnav .dropdown-li:hover .dropdown-sevices {
+  display: block;
 }
 
 .slider-home {
@@ -156,6 +349,7 @@ body {
   position: relative;
   max-width: 99%;
   background-color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 22px;
 }
 
 .slider-home .slider-form:before {
@@ -172,4 +366,102 @@ body {
   font-size: 24px;
   line-height: 30px;
   margin-bottom: 30px;
+}
+
+.slider-home .form-row1 {
+  margin: 0 12px;
+}
+
+.slider-home .form-row2 {
+  margin: 0 12px 15px 12px;
+}
+
+.slider-home .form-group {
+  margin-bottom: 10px;
+}
+
+.slider-home .inp-home1 {
+  max-width: 152px;
+  height: 38px;
+  border: none;
+  color: #949494;
+  font-size: 14px;
+  text-align: left;
+  padding: 0 9px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+}
+
+.slider-home .inp-home1::-webkit-input-placeholder {
+  color: #949494;
+}
+
+.slider-home .inp-home1:-ms-input-placeholder {
+  color: #949494;
+}
+
+.slider-home .inp-home1::-ms-input-placeholder {
+  color: #949494;
+}
+
+.slider-home .inp-home1::placeholder {
+  color: #949494;
+}
+
+.slider-home .inp-home1:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.slider-home .inp-home2 {
+  max-width: 100%;
+  height: 74px;
+  border: none;
+  color: #949494;
+  font-size: 14px;
+  text-align: left;
+  padding: 15px 9px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: none;
+  resize: none;
+}
+
+.slider-home .inp-home2::-webkit-input-placeholder {
+  color: #949494;
+}
+
+.slider-home .inp-home2:-ms-input-placeholder {
+  color: #949494;
+}
+
+.slider-home .inp-home2::-ms-input-placeholder {
+  color: #949494;
+}
+
+.slider-home .inp-home2::placeholder {
+  color: #949494;
+}
+
+.slider-home .inp-home2:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.benefits {
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.benefits .benefits-desk {
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 14px;
+  color: #3b3838;
+  font-family: 'Roboto', sans-serif;
+}
+
+.benefits .benefits-item {
+  margin-top: 35px;
+}
+
+.benefits .benafits-img {
+  max-height: 70px;
 }
