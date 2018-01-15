@@ -512,3 +512,250 @@ body{
     }
   }
 }
+
+.facades-st{
+  .tab-btn{
+    display: inline-block;
+    padding: 10px 14px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-right: 15px;
+    min-width: 102px;
+    &:last-child{
+        margin-right: 0;
+    }
+  }
+  .tabs-bar-fasad{
+    text-align: center;
+    margin-top: 30px;
+  }
+  .slider-fasad{
+    margin-top: 30px;
+    position: relative;
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-prev{
+    position: absolute;
+    left: -20px;
+    top: 40%;
+    height: 40px;
+    width: 20px;
+    background-color: #d19751;
+    margin: 0;
+    border-radius: 0;
+    &:hover{
+      background-color: #f9b000;
+    }
+   
+
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-prev:before{
+    content: "";
+    background-image: url(../images/arrow-left.png);
+    height: 14px;
+    width: 9px;
+    top: 13px;
+    left: 6px;
+    position: absolute;
+
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-next{
+    position: absolute;
+    right: -10px;
+    top: 40%;
+    height: 40px;
+    width: 20px;
+    background-color: #d19751;
+    margin: 0;
+    border-radius: 0;
+    &:hover{
+      background-color: #f9b000;
+    }
+  }
+  .owl-theme .owl-controls .owl-buttons .owl-next:before{
+    content: "";
+    background-image: url(../images/arrow-rgiht.png);
+    height: 14px;
+    width: 9px;
+    top: 13px;
+    right: 6px;
+    position: absolute;
+
+  }
+  .fasad-all{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+
+}
+
+.working{
+  padding-bottom: 20px;
+  .heading-small{
+    margin-top: 8px;
+    margin-bottom: 25px;
+  }
+  .workinkg-step1-wrp{
+    position: relative;
+    float: left;
+
+  }
+  .bla-bla{
+    position: relative;
+    min-width: 270px;
+    min-height: 85px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    &:before{
+      content: "";
+      background-image: url(../images/treu.png);
+      width: 25px;
+      height: 19px;
+      position: absolute;
+      bottom: -19px;
+      right: 150px;
+    }
+  }
+  .bla-text{
+    font-size: 14px;
+    line-height: 18px;
+    color: #a6681f;
+    float: right;
+    max-width: 175px;
+  }
+  .bla-text2{
+    color: #1e1e1e;
+  }
+  
+  .bla-img{
+    margin-right: 15px;
+  }
+  .work-hr-hor-step1{
+    margin-top: 25px;
+  }
+  .person-step1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .person-step1{
+    margin-top: 40px;
+  }
+  // 
+  .workinkg-step2-wrp{
+    overflow: hidden;
+    position: relative;
+    float: right;
+    &:before{
+      content: "";
+      background-image: url(../images/step1-hr-vert.png);
+      height: 405px;
+      width: 7px;
+      left: 5px;
+      top: 25px;
+      position: absolute;
+    }
+  }
+  // .work-heading-step2{
+  //   height: 60px;
+  //   position: relative;
+  //   &:before{
+  //     content: "";
+  //     background-image: url(../images/step2.png);
+  //     height: 60px;
+  //     width: 650px;
+  //     position: absolute;
+  //     left: -40px;
+  //     top: 0;
+  //     z-index: 3;
+  //   }
+  // }
+  .bla-text-big{
+     float: none;
+     max-width: inherit;
+  }
+  .person-step2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bla-text-big-fix{
+    float: right;
+    max-width: 450px;
+  }
+  // 
+  .workinkg-step3-wrp{
+    float: left;
+    position: relative;
+    &:before{
+      content: "";
+      background-image: url(../images/step1-hr-vert.png);
+      width: 7px;
+      height: 510px;
+
+      position: absolute;
+      left: 40px;
+      top: 50px;
+    }
+  }
+  .person-step3{
+    margin-top: 40px;
+    float: right;
+  }
+  .step-4img1{
+    float: right;
+  }
+  .bla-text-img{
+    float: none;
+    max-width: inherit;
+    display: inline-block;
+  }
+  .workinkg-step4-wrp{
+    position: relative;
+    overflow: hidden;
+  }
+  .work-heading-step4{
+    margin-bottom: 20px;
+  }
+  .person-step4{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .person-step5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .work-heading-step5{
+    margin-bottom: 20px;
+  }
+  .bla-text-step5{
+    float: none;
+    max-width: inherit;
+  }
+  .bla-bla-step5{
+    margin-top: 50px;
+  }
+
+}
+// 
+.seotext-r{
+  h1{
+    color: #cd842d;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  color: #5d5d5d;
+  font-size: 14px;
+  line-height: 16px;
+
+}
