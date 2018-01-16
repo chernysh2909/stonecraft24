@@ -117,7 +117,7 @@ body{
 
   }
   .top-number{
-    margin-top: 50px;
+    margin-top: 25px;
     &--tel{
       font-size: 18px;
       display: block;
@@ -758,4 +758,10 @@ body{
   font-size: 14px;
   line-height: 16px;
 
+}
+.top-line .header-heading-h{
+  text-align: center;
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: -45px;
 }

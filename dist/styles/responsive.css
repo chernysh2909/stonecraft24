@@ -352,6 +352,18 @@
     left: 50px;
     top: 12px;
   }
+  .top-line--logo > img{
+    max-width: 100%;
+  }
+  .our-services .col-xs-6:nth-child(2n+1) {
+    clear: both;
+  }
+  .top-line .header-heading-h{
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
 
 
 }
